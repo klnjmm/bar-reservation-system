@@ -1,0 +1,28 @@
+{
+    "name": "klnjmm/bar-reservation-system",
+    "description": "DDD Kata",
+    "type": "project",
+    "license": "",
+    "require": {
+        "php": "~8.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4",
+        "pestphp/pest": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
